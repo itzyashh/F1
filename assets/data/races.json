@@ -1,0 +1,92 @@
+{
+    "data": {
+      "races": {
+        "response": [
+          {
+            "id": 1681,
+            "date": "2023-04-02T05:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          },
+          {
+            "id": 1682,
+            "date": "2023-04-01T05:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          },
+          {
+            "id": 1683,
+            "date": "2023-04-01T01:30:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          },
+          {
+            "id": 1684,
+            "date": "2023-03-31T05:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          },
+          {
+            "id": 1685,
+            "date": "2023-03-31T01:30:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          },
+          {
+            "id": 1790,
+            "date": "2023-04-01T05:40:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          },
+          {
+            "id": 1791,
+            "date": "2023-04-01T05:20:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2023
+          }
+        ]
+      }
+    }
+  }
