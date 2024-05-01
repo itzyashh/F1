@@ -1,7 +1,7 @@
 
 import { FlatList, SafeAreaView, StyleSheet } from 'react-native';
-import racesResponse from './assets/data/races.json'
-import RaceListItem from './src/components/RaceListItem';
+import racesResponse from '../../assets/data/races.json'
+import RaceListItem from '../components/RaceListItem';
 
 
 
