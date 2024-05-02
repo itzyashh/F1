@@ -4,5 +4,11 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 const Tab = createMaterialTopTabNavigator();
 const TopTabs = withLayoutContext(Tab.Navigator);
 export default function RaceLayout () {
-    return <TopTabs />
+    return (
+    <>
+    <Stack.Screen  options={{ title: 'Race Details',headerBackTitleVisible:false }}  />
+    <TopTabs />
+    </>
+
+    )
 }
