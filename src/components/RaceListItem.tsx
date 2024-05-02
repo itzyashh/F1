@@ -1,9 +1,10 @@
 import { Entypo } from '@expo/vector-icons';
 
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Pressable } from 'react-native';
 import racesResponse from '../../assets/data/races.json'
 import color from '../../assets/color';
+import { Link } from 'expo-router';
 const races = racesResponse.data.races.response
 
 const RaceListItem = ({item}:{item : (typeof races[0])}) => {
@@ -11,7 +12,8 @@ const RaceListItem = ({item}:{item : (typeof races[0])}) => {
     const day = date.getDate().toString().padStart(2, '0')
     const month = date.getMonth().toString().padStart(2, '0')
     return (
-      <View style={styles.itemContainer}>
+      <Link href={'/race'} asChild>
+      <Pressable style={styles.itemContainer}>
         <View style={styles.contentContainer}>
         <View>
 
@@ -26,7 +28,8 @@ const RaceListItem = ({item}:{item : (typeof races[0])}) => {
         </View>
         </View>
         <Entypo name="chevron-right" size={24} color={color.primary} />
-      </View>
+      </Pressable>
+      </Link>
     )
   }
 
