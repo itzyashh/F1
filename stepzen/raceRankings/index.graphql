@@ -44,7 +44,7 @@ type RankTeam {
 }
 
 type Query {
-  raceRankings(race: String): RaceRankings
+  raceRankings(race: Int): RaceRankings
     @rest(
       endpoint: "https://v1.formula-1.api-sports.io/rankings/races"
       headers: [

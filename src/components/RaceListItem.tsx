@@ -11,7 +11,7 @@ const RaceListItem = ({item}:{item : (typeof races[0])}) => {
     const date = new Date(item.date)
     const day = date.getDate().toString().padStart(2, '0')
     const month = date.getMonth().toString().padStart(2, '0')
-    console.log(item)
+
     return (
       <Link href={`/race/${item.id}`} asChild>
       <Pressable style={styles.itemContainer}>

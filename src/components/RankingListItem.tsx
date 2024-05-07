@@ -7,7 +7,6 @@ interface RankingListItemProps {
 }
 
 const RankingListItem = ({ item }: RankingListItemProps) => {
-    console.log(item)
     return (
         <View style={styles.container}>
             <View style={{

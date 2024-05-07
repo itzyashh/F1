@@ -6,8 +6,8 @@ import { Link } from 'expo-router';
 import { useQuery, gql } from '@apollo/client';
 
 
-const query = gql`query MyQuery {
-  races(competition: "1", season: "2023") {
+const query = gql`query MyQuery ($competition: String, $season: String) {
+  races(competition: $competition, season: $season) {
     response {
       circuit {
         id
@@ -37,7 +37,10 @@ const query = gql`query MyQuery {
 }`
 
 export default function App() {
-  const { loading, error, data } = useQuery(query)
+  const { loading, error, data } = useQuery(query,{
+    variables: {competition: '1', season: '2024'}
+  
+  })
 
   if (loading) return <ActivityIndicator />
 
