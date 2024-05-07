@@ -11,6 +11,7 @@ const RaceListItem = ({item}:{item : (typeof races[0])}) => {
     const date = new Date(item.date)
     const day = date.getDate().toString().padStart(2, '0')
     const month = date.getMonth().toString().padStart(2, '0')
+    console.log(item)
     return (
       <Link href={`/race/${item.id}`} asChild>
       <Pressable style={styles.itemContainer}>
@@ -22,9 +23,9 @@ const RaceListItem = ({item}:{item : (typeof races[0])}) => {
         </View>
         <View style={styles.line} />
         <View>
-        <Text style={styles.country}>{item.competition.location.country}</Text>
+        <Text style={styles.country}>{item.competition?.location?.country}</Text>
 
-        <Text style={styles.name}>Formula 1 {item.competition.name}</Text>
+        <Text style={styles.name}>Formula 1 {item?.competition?.name}</Text>
         </View>
         </View>
         <Entypo name="chevron-right" size={24} color={color.primary} />

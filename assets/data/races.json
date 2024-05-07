@@ -1,92 +1,183 @@
 {
-    "data": {
-      "races": {
-        "response": [
-          {
-            "id": 1681,
-            "date": "2023-04-02T05:00:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
-            },
-            "season": 2023
+  "data": {
+    "races": {
+      "response": [
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
           },
-          {
-            "id": 1682,
-            "date": "2023-04-01T05:00:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
-            },
-            "season": 2023
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
           },
-          {
-            "id": 1683,
-            "date": "2023-04-01T01:30:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
+          "date": "2023-04-02T05:00:00Z",
+          "distance": "307.6 Kms",
+          "fastest_lap": {
+            "driver": {
+              "id": 10
             },
-            "season": 2023
+            "time": "1:20.235"
           },
-          {
-            "id": 1684,
-            "date": "2023-03-31T05:00:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
-            },
-            "season": 2023
+          "id": 1681,
+          "season": 2023
+        },
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
           },
-          {
-            "id": 1685,
-            "date": "2023-03-31T01:30:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
-            },
-            "season": 2023
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
           },
-          {
-            "id": 1790,
-            "date": "2023-04-01T05:40:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
+          "date": "2023-04-01T05:00:00Z",
+          "distance": null,
+          "fastest_lap": {
+            "driver": {
+              "id": null
             },
-            "season": 2023
+            "time": null
           },
-          {
-            "id": 1791,
-            "date": "2023-04-01T05:20:00Z",
-            "competition": {
-              "location": {
-                "city": "Melbourne",
-                "country": "Australia"
-              },
-              "name": "Australia Grand Prix"
+          "id": 1682,
+          "season": 2023
+        },
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
+          },
+          "date": "2023-04-01T01:30:00Z",
+          "distance": null,
+          "fastest_lap": {
+            "driver": {
+              "id": null
             },
-            "season": 2023
-          }
-        ]
-      }
+            "time": null
+          },
+          "id": 1683,
+          "season": 2023
+        },
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
+          },
+          "date": "2023-03-31T05:00:00Z",
+          "distance": null,
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
+          "id": 1684,
+          "season": 2023
+        },
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
+          },
+          "date": "2023-03-31T01:30:00Z",
+          "distance": null,
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
+          "id": 1685,
+          "season": 2023
+        },
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
+          },
+          "date": "2023-04-01T05:40:00Z",
+          "distance": null,
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
+          "id": 1790,
+          "season": 2023
+        },
+        {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
+          },
+          "date": "2023-04-01T05:20:00Z",
+          "distance": null,
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
+          "id": 1791,
+          "season": 2023
+        }
+      ]
     }
   }
+}
